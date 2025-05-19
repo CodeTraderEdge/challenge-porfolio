@@ -52,7 +52,7 @@ Para usar el optimizador a través de la API REST, puedes enviar un request `POS
 Ejemplo:
 
 ```bash
-curl --location 'http://127.0.0.1:8000/optimize-portfolio' \
+curl --location 'https://challenge-porfolio-production.up.railway.app/optimize-portfolio' \
 --header 'Content-Type: multipart/form-data' \
 --form 'file=@returns.csv"' \
 --form 'risk_level="1.0"' \
