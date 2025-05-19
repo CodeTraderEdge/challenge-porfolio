@@ -58,3 +58,24 @@ curl --location 'https://challenge-porfolio-production.up.railway.app/optimize-p
 --form 'risk_level="1.0"' \
 --form 'max_weight="0.15"'
 ```
+
+### Response esperado
+
+```json
+{
+  "optimal_portfolio": {
+    "SPY US Equity": 0.084531,
+    "FTEC US Equity": 0.15,
+    "KOMP US Equity": 0.024426,
+    "QQQM US Equity": 0.15,
+    "SOXX US Equity": 0.15,
+    "FLCH US Equity": 0.002371,
+    "VUG US Equity": 0.15,
+    "IAUM US Equity": 0.134606,
+    "FLIN US Equity": 0.044288,
+    "XLY US Equity": 0.109778,
+    "BIL US Equity": 0.0,
+    "CEMB US Equity": 0.0
+  }
+}
+```
